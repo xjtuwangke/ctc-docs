@@ -121,14 +121,89 @@ http://ggfz.guanggaobao.com.cn/api/stat/by/city?year=2014&province=%E5%8C%97%E4%
 
 上面这个是 给出某个省份下各个城市2014年1月和2月的和的数据（返回一个一维的表），注意参数里边months改成了month，返回结构与month=1相同
 
+
+
+
+```
+http://ggfz.guanggaobao.com.cn/api/by/yearMonth/2014-11/2015-02
+```
+
+跨年份查询 返回如下： 可以加 province city channel_type channel_name 参数作为限定条件
+
+```
+[
+    {
+        "name": "2014-11",
+        "data": {
+            "cost": "87226541940",
+            "versions": "0",
+            "counts": "6937477",
+            "duration": "22161843216",
+            "costDelta": "-16.84%",
+            "versionDelta": "N/A",
+            "countsDelta": "-15.14%",
+            "durationDelta": "-70.25%",
+            "percentage": "25.54%"
+        }
+    },
+    {
+        "name": "2014-12",
+        "data": {
+            "cost": "91639967488",
+            "versions": "0",
+            "counts": "7288928",
+            "duration": "24172937467",
+            "costDelta": "-18.15%",
+            "versionDelta": "N/A",
+            "countsDelta": "-15.85%",
+            "durationDelta": "-65.34%",
+            "percentage": "26.83%"
+        }
+    },
+    {
+        "name": "2015-01",
+        "data": {
+            "cost": "83899426170",
+            "versions": "0",
+            "counts": "6096125",
+            "duration": "17434658342",
+            "costDelta": "-18.02%",
+            "versionDelta": "N/A",
+            "countsDelta": "-21.03%",
+            "durationDelta": "-72.46%",
+            "percentage": "24.57%"
+        }
+    },
+    {
+        "name": "2015-02",
+        "data": {
+            "cost": "78743603231",
+            "versions": "0",
+            "counts": "5930396",
+            "duration": "19986803479",
+            "costDelta": "2.84%",
+            "versionDelta": "N/A",
+            "countsDelta": "-1.84%",
+            "durationDelta": "-37.98%",
+            "percentage": "23.06%"
+        }
+    }
+]
+```
+
+
 限定条件
 
-year
-province
+year: 年, year=2015(限定在2015年)   ,   year[]=2014&year[]=2015(限定2014、2015年)
+month: 月 month=2 , month[]=2&month[]=3
+province: 省份 
 city
 channel_type
 channel_name
+year_month_from: year_month_from=2014-12
+year_month_to: year_month_to=2015-03
 
+http://ggfz.guanggaobao.com.cn/api/stat/by/city?year_month_from=2014-09&year_month_to=2015-02&province=%E9%99%95%E8%A5%BF
 
 by=
 industry 按行业分布
