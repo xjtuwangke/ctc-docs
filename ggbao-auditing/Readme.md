@@ -1,5 +1,5 @@
 
-## http://auditing1.guanggaobao.com.cn/api/client/latest (直接浏览器里边看) 可以看到最近一次api请求的request和response，有效五分钟
+## http://auditing1.guanggaobao.com.cn/api-log/latest (直接浏览器里边看) 可以看到最近一次api请求的request和response，有效五分钟
 
 ## bejson.com解析json
 
