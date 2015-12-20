@@ -9,6 +9,8 @@
 
 ## 每个api login和password都是必须
 
+## 浏览器通过 http://auditing1.guanggaobao.com.cn/api/client/set_status/nibuzhidaowo/lalala/123/终审通过 修改状态
+
 
 ## TODOs
 

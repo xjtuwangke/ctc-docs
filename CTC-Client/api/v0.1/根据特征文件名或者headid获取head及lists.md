@@ -1,0 +1,42 @@
+localhost:8080/api/ctc-client/v0.1/getPlayListsWithSameHead
+
+{
+	"feaName":"xx文件名",
+	"headId":"256"
+}
+
+{
+	flag:"0/1/2",
+	errorMessage:"服务器太了",
+	head:{
+	    headId:
+	    isGSTask:
+	    isGDTask:
+	    isYJTask:
+	    channelName:
+	    channelType:
+	    channelNo:
+	},
+	playLists:[
+		{
+		    listId:
+		    versionId:
+		    sampleId:
+		    adId:
+		    programId:
+		    adName:
+		    adAuditCategory:
+		    pgCategory:
+		    pgTitle:
+		    pgTitle2:
+		    startPos:
+		    endPos:
+		    quality:
+		    realLen:
+		    language:
+		    versionSet:
+		    isHand:
+		    isAuto:
+		},
+	]
+}
