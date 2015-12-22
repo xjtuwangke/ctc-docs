@@ -1,0 +1,1084 @@
+
+SET IDENTITY_INSERT [dbo].[T_OutLawNorm] ON
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1', N'020111', N'', N'医疗广告中未标注《医疗广告审查证明》文号', N'一般', N'333', N'7', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'2', N'020112', N'', N'医疗广告中未标注医疗机构第一名称', N'一般', N'333', N'7', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'3', N'020321', N'', N'医疗广告中含有涉及医疗技术、诊疗方法、疾病名称、药物的', N'严重', N'333', N'7', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'4', N'020322', N'', N'医疗广告中含有保证治愈或者隐含保证治愈的', N'严重', N'333', N'7', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'5', N'020323', N'', N'医疗广告中含有宣传治愈率、有效率等诊疗效果的', N'严重', N'333', N'7', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'6', N'020324', N'', N'医疗广告中含有利用患者、卫生技术人员、医学教育科研机构及人员以及其他社会社团、组织的名义、形象作证明的', N'严重', N'333', N'7', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'7', N'020512', N'', N'医疗机构不得以内部科室名义发布医疗广告', N'一般', N'333', N'7', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'8', N'020621', N'', N'医疗广告内容仅限于以下项目：（一）医疗机构第一名称；（二）医疗机构地址；（三）所有制形式；（四）医疗机构类别；（五）诊疗科目；（六）床位数；（七）接诊时间；（八）联系电话。（一）至（六）项发布的内容必须与卫生行政部门、中医药管理部门核发的《医疗机构执业许可证》或其副本载明的内容一致。', N'严重', N'333', N'7', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'9', N'1', N'', N'违规', N'', N'22', N'12', N'2012-09-17 10:32:00.890')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'10', N'1', N'', N'宣传治疗功效', N'', N'2', N'13', N'2012-10-17 09:33:13.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'11', N'1', N'', N'违规-不选', N'', N'2', N'14', N'2012-10-17 09:33:25.140')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'12', N'060421', N'', N'保健食品广告不得出现与药品相混淆的用语，不得直接或者间接地宣传治疗作用，也不得借助宣传某些成分的作用明示或者暗示该食品的治疗作用。', N'严重', N'333', N'4', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'13', N'060621', N'', N'保健食品广告不得使用医疗机构、医生的名义或者形象，涉及特定功效的利用专家、消费者的名义或者形象做证明', N'严重', N'333', N'4', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'17', N'010221', N'', N'处方药可以在卫生部和国家食品药品监督管理局共同指定的医学、药学专业刊物上发布广告，但不得在大众传播媒介发布广告或者以其他方式进行以公众为对象的广告宣传。不得以赠送医学、药学专业刊物等形式向公众发布处方药广告。', N'严重', N'333', N'2', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'19', N'010821', N'', N'含有不科学地表示功效的断言或者保证的；', N'严重', N'333', N'2', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'20', N'010822', N'', N'说明治愈率或者有效率的；', N'严重', N'333', N'2', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'21', N'011123', N'', N'药品广告不得利用专家、医生、患者的名义和形象作证明', N'严重', N'333', N'2', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'22', N'080121', N'', N'化妆品名称、制法、成分、效用或者性能有虚假夸大的', N'严重', N'333', N'3', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'23', N'080122', N'', N'使用他人名义保证或者以暗示方法使人误解其效用的/在化妆品广告中通过他人使用化妆品前后的效果表明该化妆品的功效', N'严重', N'333', N'3', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'24', N'200121', N'', N'美容服务机构涉嫌对美容服务效果进行虚假夸大宣传', N'严重', N'333', N'5', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'25', N'200122', N'', N'非医疗机构宣传医疗美容服务项目，美容服务机构使用医疗术语误导消费者', N'严重', N'333', N'5', N'2012-01-03 09:09:51.500')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'27', N'1', N'', N'夸大产品适用范围', N'严重', N'2', N'2', N'2012-01-03 09:11:31.593')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'28', N'2', N'', N'表示功效的断言、保证', N'严重', N'2', N'2', N'2012-01-03 09:11:31.593')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'29', N'3', N'', N'含有有效率、获奖等综合性评价内容', N'严重', N'2', N'2', N'2012-01-03 09:11:31.593')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'30', N'4', N'', N'利用国家机关、专业机构及其工作人员名义和形象为产品功效作证明', N'严重', N'2', N'2', N'2012-01-03 09:11:31.593')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'31', N'5', N'', N'利用患者名义和形象为产品功效作证明', N'严重', N'2', N'2', N'2012-01-03 09:11:31.593')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'32', N'1', N'', N'宣传治疗功效', N'严重', N'2', N'5000', N'2012-01-03 09:13:06.840')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'33', N'2', N'', N'表示功效的断言、保证', N'严重', N'2', N'5000', N'2012-01-03 09:13:06.840')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'34', N'3', N'', N'含有有效率、获奖等综合性评价内容', N'严重', N'2', N'5000', N'2012-01-03 09:13:06.840')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'35', N'4', N'', N'利用国家机关、专业机构及其工作人员名义和形象为产品功效作证明', N'严重', N'2', N'5000', N'2012-01-03 09:13:06.840')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'36', N'5', N'', N'利用患者名义和形象为产品功效作证明', N'严重', N'2', N'5000', N'2012-01-03 09:13:06.840')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'37', N'1', N'', N'夸大保健食品功效', N'严重', N'2', N'7', N'2012-01-03 09:13:27.763')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'38', N'2', N'', N'表示功效的断言、保证', N'严重', N'2', N'7', N'2012-01-03 09:13:27.763')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'39', N'3', N'', N'含有有效率、获奖等综合性评价内容', N'严重', N'2', N'7', N'2012-01-03 09:13:27.763')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'40', N'4', N'', N'利用国家机关、专业机构及其工作人员名义和形象为产品功效作证明', N'严重', N'2', N'7', N'2012-01-03 09:13:27.763')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'41', N'5', N'', N'利用消费者名义和形象为产品功效作证明', N'严重', N'2', N'7', N'2012-01-03 09:13:27.763')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'42', N'1', N'', N'夸大产品适应症（功能主治）', N'严重', N'2', N'6', N'2012-01-03 09:13:50.950')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'43', N'2', N'', N'表示功效的断言、保证', N'严重', N'2', N'6', N'2012-01-03 09:13:50.950')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'44', N'3', N'', N'含有有效率、获奖等综合性评价内容', N'严重', N'2', N'6', N'2012-01-03 09:13:50.950')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'45', N'4', N'', N'利用国家机关、专业机构及其工作人员名义和形象为产品功效作证明', N'严重', N'2', N'6', N'2012-01-03 09:13:50.950')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'46', N'5', N'', N'利用患者名义和形象为产品功效作证明', N'严重', N'2', N'6', N'2012-01-03 09:13:50.950')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'47', N'1', N'', N'夸大产品适应症（功能主治）', N'严重', N'2', N'4', N'2012-01-03 09:14:03.827')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'48', N'2', N'', N'表示功效的断言、保证', N'严重', N'2', N'4', N'2012-01-03 09:14:03.827')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'49', N'3', N'', N'含有有效率、获奖等综合性评价内容', N'严重', N'2', N'4', N'2012-01-03 09:14:03.827')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'50', N'4', N'', N'利用国家机关、专业机构及其工作人员名义和形象为产品功效作证明', N'严重', N'2', N'4', N'2012-01-03 09:14:03.827')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'51', N'5', N'', N'利用患者名义和形象为产品功效作证明', N'严重', N'2', N'4', N'2012-01-03 09:14:03.827')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'52', N'1', N'', N'宣传治疗功效', N'严重', N'2', N'3', N'2012-01-03 09:31:33.187')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'53', N'2', N'', N'表示功效的断言、保证', N'严重', N'2', N'3', N'2012-01-03 09:34:03.077')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'54', N'3', N'', N'含有有效率、获奖等综合性评价内容', N'严重', N'2', N'3', N'2012-01-03 09:34:16.810')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'55', N'4', N'', N'利用国家机关、专业机构及其工作人员名义和形象为产品功效作证明', N'严重', N'2', N'3', N'2012-01-03 09:34:38.763')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'56', N'5', N'', N'利用患者名义和形象为产品功效作证明', N'严重', N'2', N'3', N'2012-01-03 09:34:55.230')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'61', N'第八条(十)', N'', N'药品、医疗器械、医疗和健康资讯类广告中含有宣传治愈率、有效率,或者以医生、专家、患者、公众人物等形象做疗效证明的；', N'', N'4', N'2', N'2012-01-05 09:17:16.047')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'62', N'第九条(三)', N'', N'处方药品广告；', N'', N'4', N'2', N'2012-01-05 09:17:44.640')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'63', N'第九条(四)', N'', N'治疗恶性肿瘤、肝病、性病或者提高性功能的药品、食品、医疗器械、医疗广告；', N'', N'4', N'2', N'2012-01-05 09:19:02.123')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'64', N'第九条(三)(四)', N'', N'处方药品广告；/治疗恶性肿瘤、肝病、性病或者提高性功能的药品、食品、医疗器械、医疗广告；', N'', N'4', N'2', N'2012-01-05 09:21:38.153')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'65', N'010221', N'', N'处方药可以在卫生部和国家食品药品监督管理局共同指定的医学、药学专业刊物上发布广告，但不得在大众传播媒介发布广告或者以其他方式进行以公众为对象的广告宣传。不得以赠送医学、药学专业刊物等形式向公众发布处方药广告。', N'严重', N'333', N'6', N'2012-01-06 14:28:20.733')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'71', N'010511', N'', N'药品广告中必须标明药品的通用名称、忠告语、药品广告批准文号、药品生产批准文号；以非处方药商品名称为各种活动冠名的，可以只发布药品商品名称。', N'一般', N'333', N'8', N'2012-01-06 15:23:37.623')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'72', N'010821', N'', N'含有不科学地表示功效的断言或者保证的；', N'严重', N'333', N'8', N'2012-01-06 15:24:20.250')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'73', N'010822', N'', N'说明治愈率或者有效率的；', N'严重', N'333', N'8', N'2012-01-06 15:24:51.107')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'74', N'011123', N'', N'药品广告不得利用专家、医生、患者的名义和形象作证明', N'严重', N'333', N'8', N'2012-01-06 15:25:48.750')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'75', N'第十九条', N'', N'除电影、电视剧剧场或者节目(栏)目冠名标识外,禁止播出任何形式的挂角广告。', N'', N'4', N'2', N'2012-02-17 16:56:24.780')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'76', N'第十七条', N'', N'播出电视剧时，不得在每集（以四十五分钟计）中间以任何形式插播广告。', N'', N'4', N'2', N'2012-02-29 09:32:18.607')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'77', N'020221', N'', N'禁止（电视、广播）新闻媒体利用医疗资讯服务类专题节（栏）目发布或变相发布医疗广告。节目中宣传治愈率、有效率的内容，节目中有专家或医生与患者或家属现场或热线沟通交流的内容，节目中出现被介绍医疗机构的地址、联系方式（播出机构设立栏目热线除外
+大众传播媒介不得以新闻报道形式发布广告。通过大众传播媒介发布的广告应当有广告标记，与其他非广告信息相区别，不得使消费者产生误解', N'严重', N'333', N'7', N'2012-03-02 13:37:46.513')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'78', N'020111', N'', N'医疗广告中未标注《医疗广告审查证明》文号', N'一般', N'22', N'12', N'2012-09-13 16:44:27.170')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'79', N'020112', N'', N'医疗广告中未标注医疗机构第一名称', N'一般', N'22', N'12', N'2012-09-13 16:44:27.170')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'80', N'020321', N'', N'医疗广告中含有涉及医疗技术、诊疗方法、疾病名称、药物的', N'严重', N'22', N'12', N'2012-09-13 16:44:27.170')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'81', N'020322', N'', N'医疗广告中含有保证治愈或者隐含保证治愈的', N'严重', N'22', N'12', N'2012-09-13 16:44:27.170')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'82', N'020323', N'', N'医疗广告中含有宣传治愈率、有效率等诊疗效果的', N'严重', N'22', N'12', N'2012-09-13 16:44:27.170')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'83', N'020324', N'', N'医疗广告中含有利用患者、卫生技术人员、医学教育科研机构及人员以及其他社会社团、组织的名义、形象作证明的', N'严重', N'22', N'12', N'2012-09-13 16:44:27.170')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'84', N'020512', N'', N'医疗机构不得以内部科室名义发布医疗广告', N'一般', N'22', N'12', N'2012-09-13 16:44:27.170')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'85', N'020621', N'', N'医疗广告内容仅限于以下项目：（一）医疗机构第一名称；（二）医疗机构地址；（三）所有制形式；（四）医疗机构类别；（五）诊疗科目；（六）床位数；（七）接诊时间；（八）联系电话。（一）至（六）项发布的内容必须与卫生行政部门、中医药管理部门核发的《医疗机构执业许可证》或其副本载明的内容一致。', N'严重', N'22', N'12', N'2012-09-13 16:44:27.170')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'86', N'020221', N'', N'禁止（电视、广播）新闻媒体利用医疗资讯服务类专题节（栏）目发布或变相发布医疗广告。节目中宣传治愈率、有效率的内容，节目中有专家或医生与患者或家属现场或热线沟通交流的内容，节目中出现被介绍医疗机构的地址、联系方式（播出机构设立栏目热线除外
+大众传播媒介不得以新闻报道形式发布广告。通过大众传播媒介发布的广告应当有广告标记，与其他非广告信息相区别，不得使消费者产生误解', N'严重', N'22', N'12', N'2012-09-13 16:44:27.170')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'89', N'20091', N'', N'美容服务机构涉嫌对美容服务效果进行虚假夸大宣传', N'严重', N'2', N'14', N'2012-10-16 17:13:35.967')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'90', N'20092', N'', N'非医疗机构宣传医疗美容服务项目，美容服务机构使用医疗术语误导消费者', N'严重', N'2', N'14', N'2012-10-16 17:13:35.967')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'91', N'1', N'', N'宣传治疗功效', N'严重违法', N'2', N'12', N'2013-04-26 23:15:00.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'92', N'2', N'', N'表示功效的断言、保证', N'严重违法', N'2', N'12', N'2013-04-26 23:15:00.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'93', N'3', N'', N'含有有效率、获奖等综合性评价内容', N'严重违法', N'2', N'12', N'2013-04-26 23:15:00.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'94', N'4', N'', N'利用国家机关、专业机构及其工作人员名义和形象为产品功效作证明', N'严重违法', N'2', N'12', N'2013-04-26 23:15:00.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'95', N'5', N'', N'利用患者名义和形象为产品功效作证明', N'严重违法', N'2', N'12', N'2013-04-26 23:15:00.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'96', N'99998', N'', N'夸大宣传', N'严重', N'2', N'15', N'2013-05-28 09:02:21.437')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'97', N'99999', N'', N'患者证明', N'严重', N'2', N'15', N'2013-05-28 09:02:35.890')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'98', N'2', N'', N'表示功效的断言、保证', N'严重', N'2', N'13', N'2013-07-09 11:00:59.543')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'99', N'3', N'', N'含有有效率、获奖等综合性评价内容', N'严重', N'2', N'13', N'2013-07-09 11:01:15.153')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'101', N'4', N'', N'利用国家机关、专业机构及其工作人员名义和形象为产品功效作证明', N'严重', N'2', N'13', N'2013-07-09 13:46:37.717')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'102', N'5', N'', N'利用患者名义和形象为产品功效作证明', N'严重', N'2', N'13', N'2013-07-09 13:46:42.280')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'104', N'88881', N'', N'表示功效的断言、保证', N'严重', N'2', N'16', N'2013-08-10 09:06:55.330')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'105', N'88882', N'', N'含有有效率、获奖等综合性评价内容', N'严重', N'2', N'16', N'2013-08-10 09:07:11.243')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'106', N'88883', N'', N'利用患者名义和形象为产品功效作证明', N'严重', N'2', N'16', N'2013-08-10 09:07:22.663')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'107', N'20093', N'', N'没有决定性语言，广告没有具体宣传', N'一般', N'2', N'14', N'2014-01-15 11:09:29.703')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'108', N'11001', N'', N'广告中含有虚假内容', N'严重', N'2', N'14', N'2014-01-15 11:11:31.930')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'109', N'11002', N'', N'广告误导消费者', N'严重', N'2', N'14', N'2014-01-15 11:11:52.117')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'110', N'11005', N'', N'发布广告使用国家机关和国家机关工作人员的名义', N'严重', N'2', N'14', N'2014-01-15 11:12:42.020')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'111', N'11006', N'', N'发布广告使用国家级、最高级、最佳等用语', N'一般', N'2', N'14', N'2014-01-15 11:15:13.870')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'686', null, N'', null, null, null, null, N'2014-05-05 12:32:10.350')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'687', N'01001', N'《广告法》第十六条；《药品广告审查发布标准》第三条', N'发布下列药品的广告：（1）麻醉药品、精神药品、医疗用毒性药品、放射性药品；（2）医疗机构配制的制剂；(3)军队特需药品；（4）停止或者禁止生产、销售和使用的药品；（5）试生产药品', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'688', N'01002', N'《药品广告审查发布标准》第四条', N'处方药在大众传播媒介发布广告或者以其他方式进行以公众为对象的广告宣传', N'严重', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'689', N'01003', N'《药品广告审查发布标准》第五条', N'处方药名称与该药品的商标、生产企业字号相同，使用该商标、企业字号在医学、药学专业刊物以外的媒介变相发布广告。使用处方药名称或者以处方药名称注册的商标以及企业字号为各种活动冠名', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'690', N'01004', N'《广告法》第十五条第一款；《药品广告审查发布标准》第六条', N'药品广告内容涉及药品适应症或者功能主治、药理作用等内容的宣传未以国务院食品药品监督管理部门批准的说明书为准，夸大或者恶意隐瞒宣传，含有说明书以外的论点、观点', N'严重', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'691', N'01005', N'《药品广告审查发布标准》第七条第一款', N'未标明药品的通用名称、忠告语、药品广告批准文号、药品生产批准文号', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'692', N'01006', N'《药品广告审查发布标准》第七条第二款', N'未标明药品生产企业或药品经营企业名称，单独出现“咨询热线”、“咨询电话”等内容', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'693', N'01007', N'《药品广告审查发布标准》第七条第三款', N'非处方药广告未标明OTC专用标识', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'694', N'01008', N'《药品广告审查发布标准》第七条第四款', N'使用注册商标代替药品名称进行宣传', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'695', N'01009', N'《广告法》第十五条第二款；《药品广告审查发布标准》第八条', N'药品广告未按规范标识忠告语。国家规定的应当在医生指导下使用的治疗性药品广告中，未注明“按医生处方购买和使用”', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'696', N'01010', N'《药品广告审查发布标准》第九条第一款', N'药品广告中涉及改善和增强性功能内容的，未与经批准的药品说明书中适应症或者功能主治完全一致', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'697', N'01011', N'《药品广告审查发布标准》第九条第二款', N'在7:00-22:00时段内发布涉及改善和增强性功能内容的药品电视或者广播广告', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'698', N'01012', N'《广告法》第十四条第一项；《药品广告审查发布标准》第十条第一项；《药品管理法》第六十一条第二款', N'含有不科学地表示功效的断言或者保证', N'严重', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'699', N'01013', N'《广告法》第十四条第二项；《药品广告审查发布标准》第十条第二项', N'说明治愈率或者有效率', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'700', N'01014', N'《广告法》第十四条第三项；《药品广告审查发布标准》第十条第三项', N'与其他药品的功效和安全性比较', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'701', N'01015', N'《药品广告审查发布标准》第十条第四项', N'违反科学规律，明示或者暗示包治百病、适合所有症状', N'严重', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'702', N'01016', N'《药品广告审查发布标准》第十条第五项', N'含有“安全无毒副作用”或者“毒副作用小”等内容；明示或者暗示中成药为“天然”药品，因而安全性有保证等内容', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'703', N'01017', N'《药品广告审查发布标准》第十条第六项', N'明示或者暗示该药品为正常生活和治疗疾病所必须等内容', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'704', N'01018', N'《药品广告审查发布标准》第十条第七项', N'明示或者暗示能应付现代紧张生活和升学、考试等需要，能够帮助提高成绩、使精力旺盛、增强竞争力、增高、益智等内容', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'705', N'01019', N'《药品广告审查发布标准》第十条第八项', N'含有不科学的用语，如“最新技术”、“最高科学”“最先进制法”等', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'706', N'01020', N'《药品广告审查发布标准》第十一条', N'非处方药广告使用公众难以理解的和容易引起混淆的医学、药学术语，造成公众对药品功效与安全性的误解', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'707', N'01021', N'《药品广告审查发布标准》第十二条第一项', N'含有不科学的表述或者使用不恰当的表现形式，引起公众对所处健康状况和所患疾病产生不必要的担忧和恐惧，或者使公众误解不使用该药品会患某种疾病或加重病情', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'708', N'01022', N'《药品广告审查发布标准》第十二条第二项', N'含有免费治疗、免费赠送、有奖销售、以药品作为礼品或者奖品等促销药品内容', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'709', N'01023', N'《药品广告审查发布标准》第十二条第三项', N'含有“家庭必备”或者类似内容', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'710', N'01024', N'《药品广告审查发布标准》第十二条第四项', N'含有“无效退款”、“保险公司保险”等保证内容', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'711', N'01025', N'《药品广告审查发布标准》第十二条第五项', N'含有评比、排序、推荐、指定、选用、获奖等综合性评价内容', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'712', N'01026', N'《广告法》第十四条第四项；《药品广告审查发布标准》第十三条第一款；《药品管理法》第六十一条第二款', N'利用医药科研单位、学术机构、医疗机构或者专家、医生、患者的名义和形象作证明', N'严重', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'713', N'01027', N'《药品广告审查发布标准》第十三条第二款', N'使用国家机关和国家机关工作人员的名义', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'714', N'01028', N'《药品广告审查发布标准》第十三条第三款', N'含有军队单位或者军队人员的名义、形象；或利用军队装备、设施从事药品广告宣传', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'715', N'01029', N'《药品广告审查发布标准》第十四条', N'涉及公共信息、公共事件或者其他与公共利益相关联的内容，如各类疾病信息、经济社会发展成果或医药科学以外的科技成果', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'716', N'01030', N'《药品广告审查发布标准》第十五条第一款', N'在未成年人出版物和广播电视频道、节目、栏目上发布药品广告', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'717', N'01031', N'《药品广告审查发布标准》第十五条第二款', N'以儿童作为诉求对象，以儿童的名义介绍药品', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'718', N'01032', N'《药品广告审查发布标准》第十六条', N'含有医疗机构的名称、地址、联系办法、诊疗项目、诊疗方法以及有关义诊、医疗（热线）咨询、开设特约门诊等医疗服务的内容', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'719', N'01033', N'《药品广告审查发布标准》第十七条', N'药品广告中必须标识的内容字体模糊、不易辨认或者在电视、电影、互联网、显示屏等媒体发布时，出现时间少于5秒', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'720', N'01034', N'《广告法》第三十四条', N'未经广告审查机关审查批准，利用广播、电影、电视、报纸、期刊以及其他媒介发布药品、医疗器械、农药、兽药等商品的广告和法律、行政法规规定应当进行审查的其他广告', N'一般', N'3', N'01', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'721', N'02001', N'《医疗广告管理办法》第三条', N'医疗机构发布医疗广告，未取得《医疗广告审查证明》', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'722', N'02002', N'《医疗广告管理办法》第五条第一款', N'非医疗机构发布医疗广告', N'严重', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'723', N'02003', N'《医疗广告管理办法》第五条第二款', N'医疗机构以内部科室名义发布医疗广告', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'724', N'02004', N'《医疗广告管理办法》第六条第一款', N'医疗广告内容超出以下项目：（1）医疗机构第一名称；（2）医疗机构地址；（3）所有制形式；（4）医疗机构类别；（5）诊疗科目；（6）床位数；（7）接诊时间；（8）联系电话', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'725', N'02005', N'《医疗广告管理办法》第六条第二款', N'医疗广告发布的医疗机构第一名称、医疗机构地址、所有制形式、医疗机构类别、诊疗科目、床位数的内容与卫生行政部门、中医药管理部门核发的《医疗机构执业许可证》或其副本载明的内容不一致', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'726', N'02006', N'《医疗广告管理办法》第七条第一项', N'医疗广告的表现形式含有涉及医疗技术、诊疗方法、疾病名称、药物的情形', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'727', N'02007', N'《医疗广告管理办法》第七条第二项', N'医疗广告的表现形式含有保证治愈或者隐含保证治愈的情形', N'严重', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'728', N'02008', N'《医疗广告管理办法》第七条第三项', N'医疗广告的表现形式含有宣传治愈率、有效率等诊疗效果的情形', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'729', N'02009', N'《医疗广告管理办法》第七条第四项', N'医疗广告的表现形式含有淫秽、迷信、荒诞的情形', N'严重', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'730', N'02010', N'《医疗广告管理办法》第七条第五项', N'医疗广告的表现形式含有贬低他人的情形', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'731', N'02011', N'《医疗广告管理办法》第七条第六项', N'医疗广告的表现形式含有利用患者、卫生技术人员、医学教育科研机构及人员以及其他社会社团、组织的名义、形象作证明的情形', N'严重', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'732', N'02012', N'《医疗广告管理办法》第七条七项', N'医疗广告的表现形式含有使用解放军和武警部队名义的情形', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'733', N'02013', N'《医疗广告管理办法》第十三条', N'《医疗广告审查证明》超过一年有效期后，未经审查仍继续发布医疗广告的', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'734', N'02014', N'《医疗广告管理办法》第十四条', N'发布医疗广告，未标注医疗机构第一名称或《医疗广告审查证明》文号', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'735', N'02015', N'《医疗广告管理办法》第十六条第一款', N'利用新闻形式、医疗资讯服务类专题节（栏）目发布或变相发布医疗广告', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'736', N'02016', N'《医疗广告管理办法》第十六条第二款', N'有关医疗机构的人物专访、专题报道等宣传内容，出现有关医疗机构的地址、联系方式等医疗广告内容；在同一媒介的同一时间段或者版面发布该医疗机构的广告', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'737', N'02017', N'《医疗广告管理办法》第十七条第一款', N'医疗机构未按照《医疗广告审查证明》核准的广告成品样件内容与媒体类别发布医疗广告', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'738', N'02018', N'《中华人民共和国中医药条例》第十三条', N'未取得中医医疗广告批准文号的，发布中医医疗广告', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'739', N'02019', N'《中华人民共和国中医药条例》第十七条', N'篡改经批准的中医医疗广告内容', N'一般', N'3', N'17', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'740', N'03001', N'《医疗器械广告审查发布标准》第三条第一项', N'食品药品监督管理部门依法明令禁止生产、销售和使用的医疗器械产品发布广告', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'741', N'03002', N'《医疗器械广告审查发布标准》第三条第二项', N'医疗机构研制的在医疗机构内部使用的医疗器械发布广告', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'742', N'03003', N'《医疗器械广告审查发布标准》第四条', N'医疗器械广告中有关产品名称、适用范围、性能结构及组成、作用机理等内容与食品药品监督管理部门批准的产品注册证明文件不符', N'严重', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'743', N'03004', N'《医疗器械广告审查发布标准》第五条', N'医疗器械产品注册证明文件中有禁忌内容、注意事项的，未在广告中标明“禁忌内容或注意事项详见说明书”', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'744', N'03005', N'《医疗器械广告审查发布标准》第六条', N'医疗器械广告中未标明经批准的医疗器械名称、医疗器械生产企业名称、医疗器械注册证号、医疗器械广告批准文号（在广播电台发布时，可以不播出医疗器械广告批准文号）', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'745', N'03006', N'《医疗器械广告审查发布标准》第七条', N'医疗器械广告中以任何非医疗器械产品名称代替医疗器械产品名称进行宣传', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'746', N'03007', N'《医疗器械广告审查发布标准》第八条', N'推荐给个人使用的医疗器械产品广告，未标明“请仔细阅读产品说明书或在医务人员的指导下购买和使用”', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'747', N'03008', N'《医疗器械广告审查发布标准》第九条第一款', N'医疗器械广告中涉及改善和增强性功能内容的，与经批准的医疗器械注册证明文件中的适用范围不符，或出现表现性器官的内容', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'748', N'03009', N'《医疗器械广告审查发布标准》第九条第二款', N'报纸头版、期刊封面、电视台、广播电台在7:00-22:00发布涉及改善和增强性功能内容的医疗器械广告', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'749', N'03010', N'《广告法》第十四条第一项；《医疗器械广告审查发布标准》第十条第一项', N'医疗器械广告中含有不科学的表示功效的断言或者保证', N'严重', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'750', N'03011', N'《广告法》第十四条第二项；《医疗器械广告审查发布标准》第十条第二项', N'医疗器械广告中说明有效率和治愈率', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'751', N'03012', N'《广告法》第十四条第三项；《医疗器械广告审查发布标准》第十条第三项', N'医疗器械广告中与其他医疗器械产品、药品或其他治疗方法的功效和安全性对比', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'752', N'03013', N'《医疗器械广告审查发布标准》第十条第四项', N'在向个人推荐使用的医疗器械广告中，利用消费者缺乏医疗器械专业、技术知识和经验的弱点，使用超出产品注册证明文件以外的专业化术语或不科学的用语描述该产品的特征或作用机理', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'753', N'03014', N'《医疗器械广告审查发布标准》第十条第五项', N'医疗器械广告中含有无法证实其科学性的所谓“研究发现”、“实验或数据证明”等方面的内容', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'754', N'03015', N'《医疗器械广告审查发布标准》第十条第六项', N'医疗器械广告含有违反科学规律，明示或暗示包治百病、适应所有症状的内容', N'严重', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'755', N'03016', N'《医疗器械广告审查发布标准》第十条第七项；《广告法》第七条第二款第三项', N'医疗器械广告中含有“安全”、“无毒副作用”、“无效退款”、“无依赖”、“保险公司承保”等承诺性用语；医疗器械广告中含有“唯一”、“精确”、“最新技术”、“最先进科学”、“国家级产品”、“填补国内空白”等用语', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'756', N'03017', N'《医疗器械广告审查发布标准》第十条第八项', N'医疗器械广告中含有声称或暗示该医疗器械为正常生活或治疗病症所必须等内容', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'757', N'03018', N'《医疗器械广告审查发布标准》第十条第九项', N'医疗器械广告中含有明示或暗示该医疗器械能应付现代紧张生活或升学、考试的需要，能帮助改善或提高成绩，能使精力旺盛、增强竞争力、能增高、能益智等内容', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'758', N'03019', N'《医疗器械广告审查发布标准》第十一条第一项', N'医疗器械广告中含有不科学的表述或者通过渲染、夸大某种健康状况或者疾病所导致的危害，引起公众对所处健康状况或所患疾病产生担忧和恐惧，或使公众误解不使用该产品会患某种疾病或加重病情', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'759', N'03020', N'《医疗器械广告审查发布标准》第十一条第二项', N'医疗器械广告中含有“家庭必备”或者类似内容', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'760', N'03021', N'《医疗器械广告审查发布标准》第十一条第三项', N'医疗器械广告中含有评比、排序、推荐、制定、选用、获奖等综合性评价内容', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'761', N'03022', N'《医疗器械广告审查发布标准》第十一条第四项', N'医疗器械广告中含有表述该产品处于“热销”、“抢购”、“试用”等的内容', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'762', N'03023', N'《广告法》第十四条第四项；《医疗器械广告审查发布标准》第十二条第一款', N'医疗器械广告中含有利用医药科研单位、学术机构、医疗机构或者专家、医生、患者的名义和形象作证明的内容', N'严重', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'763', N'03024', N'《医疗器械广告审查发布标准》第十二条第二款', N'医疗器械广告中含有军队单位或者军队人员的名义、形象；利用军队装备、设施从事医疗器械广告宣传', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'764', N'03025', N'《医疗器械广告审查发布标准》第十三条', N'医疗器械广告含有涉及公共信息、公共事件或其他与公共利益相关联的内容，如各类疾病信息、经济社会发展成果或医疗科学以外的科技成果', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'765', N'03026', N'《医疗器械广告审查发布标准》第十四条', N'医疗器械广告中含有医疗机构的名称、地址、联系办法、诊疗项目、诊疗方法以及有关义诊、医疗（热线）咨询、开设特约门诊等医疗服务的内容', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'766', N'03027', N'《医疗器械广告审查发布标准》第十五条第一款', N'医疗器械广告在未成年人出版物和频道、节目、栏目上发布', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'767', N'03028', N'《医疗器械广告审查发布标准》第十五条第二款', N'医疗器械广告以儿童为诉求对象，以儿童的名义介绍医疗器械', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'768', N'03029', N'《医疗器械广告审查发布标准》第十六条', N'按规定必须在医疗器械广告中出现的内容，其字体和颜色不清晰可见、不易于辨认；在电视、互联网、显示屏等媒体发布时，出现时间少于5秒', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'769', N'03030', N'《广告法》第三十四条', N'未经广告审查机关审查批准，利用广播、电影、电视、报纸、期刊以及其他媒介发布药品、医疗器械、农药、兽药等商品的广告和法律、行政法规规定应当进行审查的其他广告', N'一般', N'3', N'03', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'770', N'04001', N'《农药广告审查标准》第二条', N'未经国家批准登记的农药发布广告', N'严重', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'771', N'04002', N'《农药广告审查标准》第三条', N'农药广告内容与《农药登记证》和《农药登记公告》的内容不符，任意扩大范围', N'严重', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'772', N'04003', N'《农药广告审查标准》第十一条', N'未将广告审查批准文号列为广告内容同时发布', N'一般', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'773', N'04004', N'《农药广告审查标准》第五条', N'农药广告中含有有效率', N'一般', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'774', N'04005', N'《农药广告审查标准》第五条', N'农药广告中含获奖内容', N'一般', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'775', N'04006', N'《农药广告审查标准》第六条第一款', N'农药广告中含有农药科研、植保单位、学术机构或者专家、用户等的名义、形象作证明的内容', N'严重', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'776', N'04007', N'《农药广告审查标准》第七条', N'农药广告中使用直接或者暗示的方法，以及模棱两可、言过其实的用语，使人在安全性、适用性或政府批准等方面产生错觉', N'一般', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'777', N'04008', N'《农药广告审查标准》第八条', N'农药广告中滥用未经国家认可的研究成果或者不科学的词句、术语', N'严重', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'778', N'04009', N'《农药广告审查标准》第九条', N'农药广告含有“无效退款”、“保险公司保险”等承诺', N'一般', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'779', N'04010', N'《广告法》第十七条第一项、《农药广告审查标准》第四条', N'农药广告使用无毒、无害等表明安全性的绝对化断言', N'严重', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'780', N'04011', N'《广告法》第十七条第二项、《农药广告审查标准》第四条', N'发布农药广告，内容含有不科学地表示功效的断言或者保证', N'严重', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'781', N'04012', N'《广告法》第十七条第三项、《农药广告审查标准》第十条', N'发布农药广告，内容含有违反农药安全使用规程的文字、语言或者画面，如在防护不符合要求情况下的操作，农药靠近食品、饲料、儿童等', N'一般', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'782', N'04013', N'《广告法》第三十四条', N'未经广告审查机关审查批准，利用广播、电影、电视、报纸、期刊以及其他媒介发布药品、医疗器械、农药、兽药等商品的广告和法律、行政法规规定应当进行审查的其他广告', N'一般', N'3', N'04', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'783', N'05001', N'《兽药广告审查标准》第九条、《兽药广告审查办法》第十六条', N'兽药广告批准文号未与广告内容同时发布', N'一般', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'784', N'05002', N'《兽药广告审查标准》第三条第一款', N'兽药广告中含有不科学地表示功效的断言或者保证，如“疗效最佳”、“药到病除”、“根治”、“安全预防”、“安全无副作用”等', N'严重', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'785', N'05003', N'《兽药广告审查标准》第三条第二款、《广告法》第十二条', N'兽药广告贬低同类产品，与其他兽药进行功效和安全性对比', N'一般', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'786', N'05004', N'《兽药广告审查标准》第四条、《广告法》第七条第二款第三项', N'兽药广告含有“最高技术”、“最高科学”、“最进步制法”、“包治百病”等绝对化的表示', N'一般', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'787', N'05005', N'《兽药广告审查标准》第五条第一款', N'兽药广告中含有治愈率、有效率', N'一般', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'788', N'05006', N'《兽药广告审查标准》第五条第二款', N'兽药广告中含有获奖内容', N'一般', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'789', N'05007', N'《兽药广告审查标准》第六条', N'兽药广告中含有利用兽医医疗、科研单位、学术机构或者专家、兽医、用户等名义、形象作证明的内容', N'严重', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'790', N'05008', N'《兽药广告审查标准》第七条', N'兽药广告含有直接显示疾病症状和病理的画面，含有“无效退款”、“保险公司保险”等承诺', N'一般', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'791', N'05009', N'《兽药广告审查标准》第八条', N'兽药广告中兽药的使用范围超出国家兽药标准的规定；出现违反兽药安全使用规定的用语和画面', N'一般', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'792', N'05010', N'《兽药广告审查标准》第二条第一项', N'兽用麻醉药品、精神药品以及兽医医疗单位配制的兽药制剂发布广告', N'一般', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'793', N'05011', N'《兽药广告审查标准》第二条第二项', N'所含成分的种类、含量、名称与国家标准或者地方标准不符的兽药发布广告', N'一般', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'794', N'05012', N'《兽药广告审查标准》第二条第三项', N'临床应用发现超出规定毒副作用的兽药发布广告', N'一般', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'795', N'05013', N'《兽药广告审查标准》第二条第四项', N'国务院农牧行政管理部门明令禁止使用的，未取得兽药产品批准文号或者未取得《进口兽药登记许可证》的兽药发布广告', N'严重', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'796', N'05014', N'《广告法》第三十四条', N'未经广告审查机关审查批准，利用广播、电影、电视、报纸、期刊以及其他媒介发布药品、医疗器械、农药、兽药等商品的广告和法律、行政法规规定应当进行审查的其他广告', N'一般', N'3', N'05', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'797', N'06001', N'《食品广告发布暂行规定》第四条', N'国家禁止生产经营的以及违反国家食品安全有关规定生产经营的食品发布广告', N'严重', N'3', N'06', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'798', N'06002', N'《食品广告发布暂行规定》第六条', N'食品广告含有“最新科学”、“最新技术”、“最先进加工工艺”等语言或者表示', N'一般', N'3', N'06', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'799', N'06003', N'《广告法》第十九条；《食品广告发布暂行规定》第七条、《食品安全法》第五十四条第一款', N'食品广告出现医疗用语或与药品相混淆的用语，直接或者间接地宣传治疗作用，借助宣传某些成份的作用明示或者暗示该食品的治疗作用；涉及疾病预防、治疗功能', N'严重', N'3', N'06', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'800', N'06004', N'《食品广告发布暂行规定》第八条', N'食品广告明示或者暗示可以替代母乳，使用哺乳妇女和婴儿的形象', N'一般', N'3', N'06', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'801', N'06005', N'《食品广告发布暂行规定》第九条', N'食品广告中使用医疗机构、医生的名义或者形象。食品广告中涉及特定功效的，利用专家、消费者的名义或者形象做证明', N'严重', N'3', N'06', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'802', N'06006', N'《食品广告发布暂行规定》第十条', N'保健食品的广告内容未以国务院卫生行政部门批准的说明书和标签为准，任意扩大范围', N'严重', N'3', N'06', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'803', N'06007', N'《食品广告发布暂行规定》第十一条', N'保健食品与其他保健食品或者药品进行功效对比', N'一般', N'3', N'06', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'804', N'06008', N'《食品广告发布暂行规定》第十二条', N'保健食品、新资源食品、特殊营养食品的批准文号没有在其广告中同时发布', N'一般', N'3', N'06', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'805', N'06009', N'《食品广告发布暂行规定》第十三条', N'普通食品、新资源食品、特殊营养食品广告宣传保健功能，借助宣传某些成份的作用明示或者暗示其保健作用', N'一般', N'3', N'06', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'806', N'06010', N'《食品广告发布暂行规定》第十四条', N'普通食品广告宣传该食品含有新资源食品中的成份或者特殊营养成份', N'一般', N'3', N'06', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'807', N'06011', N'《食品安全法》第五十四条第二款', N'食品安全监督管理部门或者承担食品检验职责的机构、食品行业协会、消费者协会以广告或者其他形式向消费者推荐食品', N'一般', N'3', N'06', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'808', N'07001', N'《酒类广告管理办法》第七条第一项', N'酒类广告中出现鼓动、倡导、引诱人们饮酒或者宣传无节制饮酒内容', N'一般', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'809', N'07002', N'《酒类广告管理办法》第七条第二项', N'酒类广告中出现饮酒的动作', N'一般', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'810', N'07003', N'《酒类广告管理办法》第七条第三项', N'酒类广告中出现未成年人的形象', N'一般', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'811', N'07004', N'《酒类广告管理办法》第七条第四项', N'酒类广告中出现驾驶车、船、飞机等具有潜在的危险的活动', N'一般', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'812', N'07005', N'《酒类广告管理办法》第七条第五项', N'酒类广告中出现可以“消除紧张和焦虑”、“增加体力”等不科学的明示或暗示', N'一般', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'813', N'07006', N'《酒类广告管理办法》第七条第六项', N'酒类广告中出现把个人、商业、社会、体育、性生活或者其他方面的成功归因于饮酒的明示或暗示', N'一般', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'814', N'07007', N'《酒类广告管理办法》第七条第七项', N'酒类广告中出现关于酒类商品的各种评优、评奖、评名牌、推荐等评比结果', N'一般', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'815', N'07008', N'《酒类广告管理办法》第七条第八项', N'酒类广告中出现不符合社会主义精神文明建设的要求，违背社会良好风尚和不科学、不真实的其他内容', N'严重', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'816', N'07009', N'《酒类广告管理办法》第八条', N'在各类临时性广告活动中，以及含有附带赠送礼品的广告中，将酒类商品作为奖品或者礼品出现', N'一般', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'817', N'07010', N'《酒类广告管理办法》第九条第一项', N'大众传播媒介发布酒类广告，发布时间和次数违反《酒类广告管理办法》第九条的规定。电视：每套节目每日发布的酒类广告，在特殊时段（19:00-21:00）超过二条，普通时段超过十条', N'一般', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'818', N'07011', N'《酒类广告管理办法》第九条第二项', N'大众传播媒介发布酒类广告，发布时间和次数违反《酒类广告管理办法》第九条的规定。广播：每套节目每小时发布的酒类广告超过二条', N'一般', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'819', N'07012', N'《酒类广告管理办法》第九条第三项', N'大众传播媒介发布酒类广告，发布时间、版块和次数违反《酒类广告管理办法》第九条的规定。报纸、期刊：每期发布的酒类广告超过两条，或者在报纸第一版、期刊封面发布', N'一般', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'820', N'07013', N'《广告法》第十九条；《酒类广告管理办法》第六条', N'酒类广告使用医疗用语或者易与药品混淆的用语', N'严重', N'3', N'07', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'821', N'08001', N'《广告法》第十八条第一款；《烟草广告管理暂行办法》第三条', N'利用广播、电影、电视、报纸、期刊发布烟草广告', N'严重', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'822', N'08002', N'《烟草广告管理暂行办法》第四条', N'利用广播、电视、电影节目以及报纸、期刊的文章，变相发布烟草广告', N'严重', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'823', N'08003', N'《烟草广告管理暂行办法》第六条第一项', N'烟草广告中出现吸烟形象', N'严重', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'824', N'08004', N'《烟草广告管理暂行办法》第六条第二项', N'烟草广告中使用未成年人形象', N'严重', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'825', N'08005', N'《烟草广告管理暂行办法》第六条第三项', N'烟草广告中出现鼓励、怂恿吸烟的情形', N'严重', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'826', N'08006', N'《烟草广告管理暂行办法》第六条第四项', N'烟草广告中有表示吸烟无害或有利人体健康、解除疲劳、缓解精神紧张的内容', N'严重', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'827', N'08007', N'《烟草广告管理暂行办法》第七条第一款', N'其他商品、服务的商标名称及服务项目名称与烟草制品商标名称相同的，该商品、服务的广告，未以易于辨认的方式，明确表示商品名称、服务种类、或出现与烟草广告画面、用语等主要要素相同、近似的内容、或出现该商品、服务与烟草制品有关的其他表示', N'一般', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'828', N'08008', N'《烟草广告管理暂行办法》第八条', N'凡利用烟草经营者名称、烟草制品商标为社会活动冠名、冠杯的、通过广播、电视、电影、报纸、期刊发布带有冠名、冠杯的赛事、演出等广告', N'一般', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'829', N'08009', N'《烟草广告管理暂行办法》第九条第一项', N'烟草经营者利用广播、电视、电影、报纸、期刊发布社会公益广告时，出现烟草制品名称、商标、包装、特定广告语；或者出现的企业名称与烟草商标名称相同时，以特殊设计的办法突出企业名称', N'一般', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'830', N'08010', N'《烟草广告管理暂行办法》第九条第二项', N'烟草经营者利用广播、电视、电影、报纸、期刊发布迁址、换房、更名等启事广告及其他非经营性广告时，出现烟草制品名称、商标、包装、特定广告语；或者出现的企业名称与烟草商标名称相同时，以特殊设计的办法突出企业名称', N'一般', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'831', N'08011', N'《烟草广告管理暂行办法》第九条第三项', N'烟草经营者利用广播、电视、电影、报纸、期刊发布招工、招聘、寻求合作、寻求服务等企业经营广告时，出现烟草制品名称、商标、包装、特定广告语；或者出现的企业名称与烟草商标名称相同时，以特殊设计的办法突出企业名称', N'一般', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'832', N'08012', N'《烟草广告管理暂行办法》第九条第四项', N'烟草经营者利用广播、电视、电影节目首尾出现的鸣谢单位或者赞助单位名称时，出现烟草制品名称、商标、包装、特定广告语；或者出现的企业名称与烟草商标名称相同时，以特殊设计的办法突出企业名称', N'一般', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'833', N'08013', N'《烟草广告管理暂行办法》第九条第五项', N'烟草经营者利用报纸、期刊报花、栏头上标明协办单位名称时，出现烟草制品名称、商标、包装、特定广告语；或者出现的企业名称与烟草商标名称相同时，以特殊设计的办法突出企业名称', N'一般', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'834', N'08014', N'《烟草广告管理暂行办法》第十条；《广告法》第十八条第三款', N'烟草广告中没用标明“吸烟有害健康”的忠告语，或该忠告语不清晰，不易辨认，所占面积少于全部广告面积的10%', N'一般', N'3', N'08', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'835', N'09001', N'《化妆品广告管理办法》第三条', N'化妆品广告内容不真实、不健康、不科学准确、欺骗并误导消费者', N'严重', N'3', N'09', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'836', N'09002', N'《化妆品广告管理办法》第七条', N'对可能引起不良反应的化妆品，未在广告中注明使用方法、注意事项', N'一般', N'3', N'09', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'837', N'09003', N'《化妆品广告管理办法》第八条第一项', N'化妆品广告对化妆品名称、制法、效用或者性能有虚假夸大内容', N'严重', N'3', N'09', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'838', N'09004', N'《化妆品广告管理办法》第八条第二项', N'化妆品广告有使用他人名义保证或以暗示方法使人误解其效用的内容', N'严重', N'3', N'09', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'839', N'09005', N'《广告法》第十九条；《化妆品广告管理办法》第八条第三项', N'化妆品广告宣传医疗作用、使用医疗术语或者使用易与药品混淆的用语', N'严重', N'3', N'09', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'840', N'09006', N'《广告法》第十二条；《化妆品广告管理办法》第八条第四项', N'化妆品广告中出现有贬低同类产品的内容', N'一般', N'3', N'09', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'841', N'09007', N'《化妆品广告管理办法》第八条第五项', N'使用最新创造、最新发明、纯天然制品、无副作用等用语', N'一般', N'3', N'09', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'842', N'09008', N'《化妆品广告管理办法》第八条第六项', N'有涉及化妆品性能或者功能、销量等方面的数据', N'一般', N'3', N'09', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'843', N'09009', N'《化妆品广告管理办法》第五条第五项', N'特殊用途化妆品不具有国务院卫生行政部门核发的批准文号', N'一般', N'3', N'09', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'844', N'10001', N'《房地产广告发布暂行规定》第三条', N'房地产广告不真实、不科学、不准确；不符合社会主义精神文明建设要求；欺骗和误导公众', N'严重', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'845', N'10002', N'《房地产广告发布暂行规定》第四条第一项', N'房地产广告中的房地产项目在未经依法取得国有土地使用权的土地上开发建设', N'严重', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'846', N'10003', N'《房地产广告发布暂行规定》第四条第二项', N'房地产广告中的房地产项目在未经国家征用的集体所有的土地上建设', N'严重', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'847', N'10004', N'《房地产广告发布暂行规定》第四条第三项', N'房地产广告中的房地产项目在司法机关和行政机关依法规定、决定查封或者以其他形式限制房地产权利', N'严重', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'848', N'10005', N'《房地产广告发布暂行规定》第四条第四项', N'发布预售房地产广告，但未取得该项目预售许可证', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'849', N'10006', N'《房地产广告发布暂行规定》第四条第五项', N'房地产广告中的房地产项目权属有争议', N'严重', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'850', N'10007', N'《房地产广告发布暂行规定》第四条第六项', N'房地产广告中的房地产项目违反国家有关规定建设', N'严重', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'851', N'10008', N'《房地产广告发布暂行规定》第四条第七项', N'房地产广告中的房地产项目不符合工程质量标准，经验收不合格', N'严重', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'852', N'10009', N'《房地产广告发布暂行规定》第六条', N'房地产预售、销售广告，没有载明开发企业名称、中介服务机构名称和预售或者销售许可证书号', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'853', N'10010', N'《房地产广告发布暂行规定》第七条', N'房地产广告含有风水、占卜等封建迷信内容，对项目情况进行的说明、渲染，有悖社会良好风尚', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'854', N'10011', N'《房地产广告发布暂行规定》第八条', N'房地产广告中涉及所有权或者使用权的，所有或者使用的基本单位是没有实际意义的不完整的生产、生活空间', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'855', N'10012', N'《房地产广告发布暂行规定》第九条', N'房地产广告中对价格有表示的，没有清楚表示实际的销售价格和有效期限', N'严重', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'856', N'10013', N'《房地产广告发布暂行规定》第十条', N'房地产表现项目位置，以所需时间来表示距离或房地产广告中的项目位置示意图，或者示意图不准确、不清楚、比例不恰当', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'857', N'10014', N'《房地产广告发布暂行规定》第十一条', N'房地产广告中涉及的交通、商业、文化教育设施及其他市政条件等，在规划或者建设中，没有在广告中注明的', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'858', N'10015', N'《房地产广告发布暂行规定》第十二条', N'房地产广告中涉及面积的，没有表明是建筑面积或者使用面积', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'859', N'10016', N'《房地产广告发布暂行规定》第十三条第一款', N'房地产广告涉及内部结构、装修装饰的，不真实、准确', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'860', N'10017', N'《房地产广告发布暂行规定》第十三条第二款', N'预售、预租商品房广告涉及装修装饰内容', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'861', N'10018', N'《房地产广告发布暂行规定》第十四条', N'房地产广告中利用其他项目的形象、环境作为本项目的效果', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'862', N'10019', N'《房地产广告发布暂行规定》第十五条', N'房地产广告中使用建筑设计效果图或者模型照片的，没有在广告中注明', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'863', N'10020', N'《房地产广告发布暂行规定》第十六条', N'房地产广告中出现融资或者变相融资的内容，含有升值或者投资回报的承诺', N'严重', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'864', N'10021', N'《房地产广告发布暂行规定》第十七条', N'房地产广告中涉及贷款服务的，没有表明提供贷款的银行名称及贷款额度、年期', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'865', N'10022', N'《房地产广告发布暂行规定》第十八条', N'房地产广告中含有广告主能够为人住者办理户口、就业、升学等事项的承诺', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'866', N'10023', N'《房地产广告发布暂行规定》第十九条', N'房地产广告中涉及物业管理内容的，不符合国家有关规定；涉及尚未实现的物业管理内容，没有在广告中注明', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'867', N'10024', N'《房地产广告发布暂行规定》第二十条', N'房地产广告中涉及资产评估的，没有表明评估单位、估价师和评估时间；使用其他数据、统计资料、文摘、引用语的，不真实、不准确、或未表明出处', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'868', N'10025', N'《房地产广告发布暂行规定》第十一条', N'房地产开发企业以返本销售或者变相返本销售的方式销售商品房。房地产开发企业以售后包租或者变相售后包租的方式销售未竣工商品房', N'一般', N'3', N'10', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'869', N'11001', N'《广告法》第四条', N'广告中含有虚假内容', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'870', N'11002', N'《广告法》第四条', N'广告误导消费者', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'871', N'11003', N'《广告法》第三条', N'广告含有违反社会主义精神文明建设的内容', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'872', N'11004', N'《广告法》第七条第二款第一项', N'发布广告使用中华人民共和国国旗、国徽、国歌', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'873', N'11005', N'《广告法》第七条第二款第二项', N'发布广告使用国家机关和国家机关工作人员的名义', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'874', N'11006', N'《广告法》第七条第二款第三项', N'发布广告使用国家级、最高级、最佳等用语', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'875', N'11007', N'《广告法》第七条第二款第四项', N'广告含有妨碍社会安定和危害人身、财产安全，损害社会公共利益的内容和情形', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'876', N'11008', N'《广告法》第七条第二款第五项', N'广告含有妨碍社会公共秩序和违背社会良好风尚的内容和情形', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'877', N'11009', N'《广告法》第七条第二款第六项', N'广告含有淫秽、迷信、恐怖、暴力、丑恶的内容', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'878', N'11010', N'《广告法》第七条第二款第七项', N'广告含有民族、种族、宗教、性别歧视的内容', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'879', N'11011', N'《广告法》第七条第二款第八项', N'广告含有妨碍环境和自然资源保护的内容和情形', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'880', N'11012', N'《广告法》第七条第二款第九项', N'广告含有法律、行政法规规定禁止和其他情形', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'881', N'11013', N'《广告法》第八条', N'广告含有损害未成年人和残疾人的身心健康的内容和情形', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'882', N'11014', N'《广告法》第九条第一款', N'广告中对商品和性能、产地、用途、质量、价格、生产者、有效期限、允诺或者对服务的内容、形式、质量、价格、允诺有表示的，表示不清楚、不明白', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'883', N'11015', N'《广告法》第九条第二款', N'广告中表明推销商品、提供服务附带赠送礼品的，未标明赠送的品种和数量', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'884', N'11016', N'《广告法》第十条', N'广告使用数据、统计资料、调查结果、文摘、引用语未表明出处', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'885', N'11017', N'《广告法》第十条', N'广告使用数据、统计资料、调查结果、文摘、引用语，不真实、不准确', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'886', N'11018', N'《广告法》第十一条第一款', N'广告中涉及专利产品或者专利方法，未表明专利号和专利种类', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'887', N'11019', N'《广告法》第十一条第二款', N'未取得专利权，在广告中谎称取得专利权', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'888', N'11020', N'《广告法》第十一条第三款', N'使用未授予专利的专利申请和已经终止、撤销、无效的专利做广告', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'889', N'11021', N'《广告法》第十二条', N'广告贬低其他生产经营者的商品或者服务', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'890', N'11022', N'《广告法》第十三条第一款', N'广告不具有可识别性，不能够使消费者辨明其为广告', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'891', N'11023', N'《广告法》第十三条第二款', N'大众传播媒介以新闻报道形式发布广告', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'892', N'11024', N'《广告法》第十三条第二款', N'通过大众传播媒介发布的广告没有广告标记，未与其他非广告信息相区别，使消费者产生误解', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'893', N'11025', N'《广告法》第三十一条', N'对法律、行政法规规定禁止生产、销售的商品或者提供的服务，以及禁止发布的商品或者服务，设计、制作、发布广告', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'894', N'11026', N'《广告法》第三十四条', N'未经广告审查机关审查批准，利用广播、电影、电视、报纸、期刊以及其他媒介发布药品、医疗器械、农药、兽药等商品的广告和法律、行政法规规定应当进行审查的其他广告', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'895', N'11027', N'《广告语言文字管理暂行规定》第三条', N'广告使用的语言文字，用语不清晰、不准确；用字不规范、不标准', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'896', N'11028', N'《广告语言文字管理暂行规定》第四条', N'广告使用的语言文字不符合社会主义精神文明建设的要求，含有不良文化内容', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'897', N'11029', N'《广告语言文字管理暂行规定》第五条', N'广告用语用字未使用普通话和规范汉字', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'898', N'11030', N'《广告语言文字管理暂行规定》第六条', N'广告中单独使用汉语拼音或使用汉语拼音不正确和不规范，或未与规范汉字同时使用', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'899', N'11031', N'《广告语言文字管理暂行规定》第七条', N'广告中数字、标点符号的用法和计量单位等，不符合国家标准和有关规定', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'900', N'11032', N'《广告语言文字管理暂行规定》第八条第一款', N'广告中单独使用外国语言文字', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'901', N'11033', N'《广告语言文字管理暂行规定》第八条第二款', N'在同一广告语句中夹杂使用外国语言文字', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'902', N'11034', N'《广告语言文字管理暂行规定》第十条', N'广告用语用字出现使用错别字，违反国家法律、法规规定使用繁体字、使用国家已废止的导体字和简化字、使用国家已废止的印刷字型和其他不规范使用的语言文字的情形', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'903', N'11035', N'《广告语言文字管理暂行规定》第十一条', N'广告中成语的使用不符合国家有关规定，引起误导，对社会造成不良影响', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'904', N'11036', N'《广告语言文字管理暂行规定》第十二条', N'广告中出现的注册商标定型字、文物古迹中原有的文字以及经国家有关部门认可的企业字号用字等与原形不一致，引起误导', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'905', N'11037', N'《广告语言文字管理暂行规定》第十三条', N'广告中因创意等需要使用的手书体字、美术字、变体字、古文字、不易辨认，引起误导', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'906', N'12001', N'《药品管理法》第六十一条第三款', N'非药品广告涉及药品的宣传', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'907', N'12002', N'《药品管理法实施条例》第四十三条', N'非药品不得在其包装、标签、说明书及有关宣传资料上进行含有预防、治疗、诊断人体疾病等有关内容的宣传（法律、行政法规另有规定的除外）', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'908', N'12003', N'《禁毒法》第三十六条', N'发布戒毒脱瘾治疗的药品、医疗器械和治疗方法的广告', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'909', N'12004', N'《反不正当竞争法》第二十四条', N'经营者利用广告或者其他方法，对商品作引人误解的虚假宣传', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'910', N'12005', N'《反不正当竞争法》第十三条第三项', N'抽奖式的有奖销售，最高奖的金额超过5千元', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'911', N'12006', N'《证券投资基金法》第六十四条', N'投资基金广告中对证券投资业绩进行预测，承诺收益或者承担损失', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'912', N'12007', N'《奥林匹克标志保护条例》第四条', N'未经奥林匹克权利人许可，为商业目的（含潜在商业目的）使用世界博览会标志', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'913', N'12008', N'《世界博览会标志保护条例》第四条', N'未经世界博览会标志权利人许可，为商业目的（含潜在商业目的）使用世界博览会标志', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'914', N'12009', N'《亚洲运动会标志保护办法》第六条', N'未经亚运会标志权利人许可，为商业目的擅自使用亚运会标志', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'915', N'12010', N'《人民币管理条例》第二十七条第三项', N'未经中国人民银行批准，在宣传品、出版物或者其他商品上使用人民币图样', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'916', N'12011', N'《人民币管理条例》第二十九条', N'印制、发售代币票券，以代替人民币在市场上流通', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'917', N'12012', N'《商业特许经营管理条例》第十七条第二款', N'商业特许经营广告中含有宣传被特许人从事特许经营活动收益的内容', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'918', N'12013', N'《种子法》第十七条第一款', N'应当审定的农作物品种未经审定通过的，发布广告', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'919', N'12014', N'《种子法》第三十七条', N'种子广告的内容不符合相关广告的法律、法规的规定，主要性状描述和审定公告不一致', N'严重', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'920', N'12015', N'《注册会计师法》第二十二条第六项', N'注册会计师对其能力进行广告宣传以招揽业务', N'一般', N'3', N'9999', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'921', N'20091', N'', N'美容服务机构涉嫌对美容服务效果进行虚假夸大宣传。', N'严重', N'3', N'2009', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'922', N'20092', N'', N'非医疗机构宣传医疗美容服务项目，美容服务机构使用医疗术语误导消费者。', N'严重', N'3', N'2009', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'923', N'20093', N'', N'广告内容没有具体宣传疗效', N'一般', N'3', N'2009', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'924', N'11001', N'', N'广告中含有虚假内容。', N'严重', N'3', N'2009', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'925', N'11002', N'', N'广告误导消费者。', N'严重', N'3', N'2009', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'926', N'11005', N'', N'发布广告使用国家机关和国家机关工作人员的名义。', N'一般', N'3', N'2009', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'927', N'11006', N'', N'发布广告使用国际级、最高级、最佳等用语。', N'一般', N'3', N'2009', N'2014-05-05 10:42:05.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'928', N'06001', N'《食品广告发布暂行规定》第四条', N'国家禁止生产经营的以及违反国家食品安全有关规定生产经营的食品发布广告', N'严重', N'3', N'02', N'2014-05-05 11:46:13.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'929', N'06002', N'《食品广告发布暂行规定》第六条', N'食品广告含有“最新科学”、“最新技术”、“最先进加工工艺”等语言或者表示', N'一般', N'3', N'02', N'2014-05-05 11:46:13.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'930', N'06003', N'《广告法》第十九条；《食品广告发布暂行规定》第七条、《食品安全法》第五十四条第一款', N'食品广告出现医疗用语或与药品相混淆的用语，直接或者间接地宣传治疗作用，借助宣传某些成份的作用明示或者暗示该食品的治疗作用；涉及疾病预防、治疗功能', N'严重', N'3', N'02', N'2014-05-05 11:46:13.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'931', N'06004', N'《食品广告发布暂行规定》第八条', N'食品广告明示或者暗示可以替代母乳，使用哺乳妇女和婴儿的形象', N'一般', N'3', N'02', N'2014-05-05 11:46:13.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'932', N'06005', N'《食品广告发布暂行规定》第九条', N'食品广告中使用医疗机构、医生的名义或者形象。食品广告中涉及特定功效的，利用专家、消费者的名义或者形象做证明', N'严重', N'3', N'02', N'2014-05-05 11:46:13.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'933', N'06006', N'《食品广告发布暂行规定》第十条', N'保健食品的广告内容未以国务院卫生行政部门批准的说明书和标签为准，任意扩大范围', N'严重', N'3', N'02', N'2014-05-05 11:46:13.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'934', N'06007', N'《食品广告发布暂行规定》第十一条', N'保健食品与其他保健食品或者药品进行功效对比', N'一般', N'3', N'02', N'2014-05-05 11:46:13.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'935', N'06008', N'《食品广告发布暂行规定》第十二条', N'保健食品、新资源食品、特殊营养食品的批准文号没有在其广告中同时发布', N'一般', N'3', N'02', N'2014-05-05 11:46:13.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'936', N'06009', N'《食品广告发布暂行规定》第十三条', N'普通食品、新资源食品、特殊营养食品广告宣传保健功能，借助宣传某些成份的作用明示或者暗示其保健作用', N'一般', N'3', N'02', N'2014-05-05 11:46:13.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'937', N'06010', N'《食品广告发布暂行规定》第十四条', N'普通食品广告宣传该食品含有新资源食品中的成份或者特殊营养成份', N'一般', N'3', N'02', N'2014-05-05 11:46:13.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'938', N'06011', N'《食品安全法》第五十四条第二款', N'食品安全监督管理部门或者承担食品检验职责的机构、食品行业协会、消费者协会以广告或者其他形式向消费者推荐食品', N'一般', N'3', N'02', N'2014-05-05 11:46:13.000')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1012', N'11001', N'', N'广告中含有虚假内容', N'严重', N'3', N'07', N'2015-09-02 09:37:22.827')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1013', N'11002', N'', N'广告误导消费者', N'严重', N'3', N'07', N'2015-09-02 09:41:33.690')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1014', N'12004', N'', N'经营者利用广告或者其他方法，对商品作引人误解的虚假宣传', N'严重', N'3', N'07', N'2015-09-02 09:41:44.543')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1019', N'18005', N'《新广告法》第十八条', N'利用广告代言人作推荐、证明', N'严重', N'3', N'02', N'2015-09-10 15:19:17.187')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1024', N'16004', N'《新广告法》第十六条', N'利用广告代言人作推荐、证明', N'严重', N'3', N'9999', N'2015-09-11 09:55:02.407')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1025', N'38001', N'《新广告法》第三十八条', N'不得利用不满十周岁的未成年人作为广告代言人', N'严重', N'3', N'06', N'2015-09-11 09:56:43.137')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1028', N'16004', N'《新广告法》第十六条', N'利用广告代言人作推荐、证明', N'严重', N'3', N'01', N'2015-09-11 09:55:02.407')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1029', N'16004', N'《新广告法》第十六条', N'利用广告代言人作推荐、证明', N'严重', N'3', N'03', N'2015-09-11 09:55:02.407')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1030', N'16004', N'《新广告法》第十六条', N'利用广告代言人作推荐、证明', N'严重', N'3', N'17', N'2015-09-11 09:55:02.407')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1031', N'38001', N'《新广告法》第三十八条', N'不得利用不满十周岁的未成年人作为广告代言人', N'严重', N'3', N'9999', N'2015-09-11 09:56:43.137')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1032', N'16004', N'《新广告法》第十六条', N'利用广告代言人作推荐、证明', N'严重', N'3', N'06', N'2015-09-11 09:55:02.407')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1033', N'18001', N'', N'广告中表明推销的商品或者服务附带赠送的，应当明示所附带赠送商品或者服务的品种、规格、数量、期限和方式', N'严重', N'3', N'06', N'2015-10-13 11:01:14.730')
+GO
+GO
+INSERT INTO [dbo].[T_OutLawNorm] ([OutlawId], [OutlawCord], [OutlawName], [OutlawNorm], [OutlawLevel], [Themeid], [Typeid], [createdAt]) VALUES (N'1034', N'18001', N'', N'广告中表明推销的商品或者服务附带赠送的，应当明示所附带赠送商品或者服务的品种、规格、数量、期限和方式', N'严重', N'3', N'16', N'2015-10-13 11:01:41.940')
+GO
+GO
+SET IDENTITY_INSERT [dbo].[T_OutLawNorm] OFF
+GO
