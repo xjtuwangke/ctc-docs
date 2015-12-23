@@ -120,5 +120,23 @@
             "versionSet": ""
         }
     ]
+  }
+  ```
+
+
+1. 串播单标注
+
+api/ctc-client/v0.1/playlist/notate
+
+```
+{
+  "listId":"123",
+  "adName":"广告名",
+  "pgName0":"节目一级名称",
+  "pgName1":"节目二级名称",
+  "adCategory":"广告分类",
+  "pgVersionSet":"节目版集",
+  "language":"语言",
+  "quality":"质量"
 }
-   ```
+```
