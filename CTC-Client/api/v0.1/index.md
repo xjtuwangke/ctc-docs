@@ -49,6 +49,7 @@
 	        "channelName": "中国教育频道(2)",
 	        "channelType": "1",
 	        "channelNo": "010000102",
+          "samFeaPathInfo":"\\\\192.168.1.9\\New样本特征文件夹\\"
 	        "playlists": []
 	    }
 	}
@@ -87,7 +88,16 @@
            "versionId":"123",
            "isHand":"0",
            "isAuto":"1",
-           "listId":"123"
+           "listId":"123",
+           "listId":"123",
+            "adName":"广告名",
+            "pgName0":"节目一级名称",
+            "pgName1":"节目二级名称",
+            "adCategory":"广告分类",
+            "pgVersionSet":"节目版集",
+            "language":"语言",
+            "quality":"质量"
+
        },
        ...
    ]
@@ -122,21 +132,3 @@
     ]
   }
   ```
-
-
-1. 串播单标注
-
-api/ctc-client/v0.1/playlist/notate
-
-```
-{
-  "listId":"123",
-  "adName":"广告名",
-  "pgName0":"节目一级名称",
-  "pgName1":"节目二级名称",
-  "adCategory":"广告分类",
-  "pgVersionSet":"节目版集",
-  "language":"语言",
-  "quality":"质量"
-}
-```
