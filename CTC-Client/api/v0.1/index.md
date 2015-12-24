@@ -4,25 +4,25 @@
   ```
   {
     "feaName": "18019101985",
-	"headId":"6"
+	  "headId":"6"
   }
   ```
 
   ```
   {
-	"flag": 0,
-	"errorMessage": "",
-	"playListHeadMessage":{
-	"headId": "7",
-	"isGSTask": null,
-	"isGDTask": null,
-	"isYJTask": null,
-	"channelName": "甘肃文化影视频道",
-	"channelType": "1",
-	"channelNo": "620000106",
-	"playlists":[]
+  	"flag": 0,
+  	"errorMessage": "",
+  	"playListHeadMessage":{
+  	"headId": "7",
+  	"isGSTask": null,
+  	"isGDTask": null,
+  	"isYJTask": null,
+  	"channelName": "甘肃文化影视频道",
+  	"channelType": "1",
+  	"channelNo": "620000106",
+  	"playlists":[]
 	},
-	"playListMessages":[]
+	  "playListMessages":[]
   }
   ```
 
@@ -30,11 +30,11 @@
    
    ```
    {
-    "feaName": "18019101985",
-	  "channelType":"1",
-	  "channelNo":"010000102",
-	  "userid":"0"
-	}
+      "feaName": "18019101985",
+  	  "channelType":"1",
+  	  "channelNo":"010000102",
+  	  "userid":"0"
+	 }
    ```
 
    ```
@@ -90,14 +90,13 @@
            "isAuto":"1",
            "listId":"123",
            "listId":"123",
-            "adName":"广告名",
-            "pgName0":"节目一级名称",
-            "pgName1":"节目二级名称",
-            "adCategory":"广告分类",
-            "pgVersionSet":"节目版集",
-            "language":"语言",
-            "quality":"质量"
-
+           "adName":"广告名",
+           "pgName0":"节目一级名称",
+           "pgName1":"节目二级名称",
+           "adCategory":"广告分类",
+           "pgVersionSet":"节目版集",
+           "language":"语言",
+           "quality":"质量"
        },
        ...
    ]
@@ -132,3 +131,20 @@
     ]
   }
   ```
+
+
+  1. 串播单搜索
+
+  ```
+  {
+    "isAD":"1",
+    "isProgram":"1",
+    "keyword":"关键字",
+    "playAfter":"2015-12-12 10:00:00",
+    "playBefore":"2015-12-14 10:00:00",
+    "submittedAfter":"2015-12-12 10:00:00",
+    "submittedBefore":"2015-12-14 10:00:00",
+    "channelNo":"123123",
+    "channelType":"1"
+  }
+  ``` 
