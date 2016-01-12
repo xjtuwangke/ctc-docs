@@ -17,4 +17,5 @@
     * [用户资料查看](ggbao-auditing/用户资料查看.md)
     * [登陆](ggbao-auditing/登陆.md)
     * [频道查询](ggbao-auditing/频道查询.md)
+    * [材料统计](ggbao-auditing/材料统计.md)
 * [广告发展网站外部数据查询API](ctcmc-ggfz/API说明.md)
