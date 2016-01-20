@@ -18,6 +18,8 @@
     * [登陆](ggbao-auditing/登陆.md)
     * [频道查询](ggbao-auditing/频道查询.md)
     * [材料统计](ggbao-auditing/材料统计.md)
-    * [审核员查询material](ggbao-auditing/审核员查询.md)
-    * [初审审核员占坑](ggbao-auditing/初审审核员claim材料.md)
+    * [审核员---查询material](ggbao-auditing/审核员查询.md) 
+    * [审核员---修改基本信息](ggbao-auditing/修改基本信息.md) 没测试
+    * [审核员---修改状态](ggbao-auditing/修改状态.md) 没测试
+    * [审核员---上传结果](ggbao-auditing/上传结果.md) 没测试
 * [广告发展网站外部数据查询API](ctcmc-ggfz/API说明.md)
