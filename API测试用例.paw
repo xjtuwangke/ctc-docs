@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>2275D00E-7382-4B7B-A3C7-66C3B4FC480D</UUID>
-        <nextObjectID>142</nextObjectID>
+        <nextObjectID>151</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -386,7 +386,7 @@
         <attribute name="order" type="int64">0</attribute>
         <attribute name="name" type="string">广告审片API</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z103"></relationship>
-        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z138 z141 z130"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM" idrefs="z138 z130 z147 z144 z150"></relationship>
         <relationship name="bodyparameters" type="0/0" destination="LMKEYVALUE"></relationship>
         <relationship name="headers" type="0/0" destination="LMKEYVALUE"></relationship>
         <relationship name="urlparameters" type="0/0" destination="LMKEYVALUE"></relationship>
@@ -483,7 +483,7 @@
         <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z138"></relationship>
     </object>
-    <object type="LMKEYVALUE" id="z140">
+    <object type="LMKEYVALUE" id="z143">
         <attribute name="value" type="string">application/json</attribute>
         <attribute name="order" type="int64">0</attribute>
         <attribute name="name" type="string">Content-Type</attribute>
@@ -491,12 +491,12 @@
         <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
-        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z141"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z144"></relationship>
     </object>
-    <object type="LMREQUEST" id="z141">
-        <attribute name="body" type="string">["{\\n  \\"login\\": \\"18019101985\\",\\n  \\"password\\": \\"YangShuo19841216\\",\\n  \\"material_id\\": \\"17300\\"\\n}"]</attribute>
-        <attribute name="uuid" type="string">E2F93EFC-F025-4061-B7C5-AEC0251B3A3F</attribute>
-        <attribute name="url" type="string">http://auditing1.guanggaobao.com.cn/api/client/auditor_material_claim</attribute>
+    <object type="LMREQUEST" id="z144">
+        <attribute name="body" type="string">[{"data":{"json":"{\\"login\\":\\"18019101985\\",\\"password\\":\\"YangShuo19841216\\",\\"product_title\\":\\"\\\\u4ea7\\\\u54c1\\\\u540d\\",\\"material_id\\":123,\\"title\\":\\"\\\\u5e7f\\\\u544a\\\\u540d\\",\\"ad_type\\":\\"\\\\u5a92\\\\u4f53\\\\u7c7b\\\\u578b\\",\\"ad_date\\":\\"\\\\u64ad\\\\u51fa\\\\u65e5\\\\u671f\\",\\"ad_time\\":\\"\\\\u64ad\\\\u51fa\\\\u65f6\\\\u6bb5\\",\\"ad_duration\\":\\"\\\\u64ad\\\\u51fa\\\\u65f6\\\\u957f\\",\\"ad_version\\":\\"\\\\u5e7f\\\\u544a\\\\u7248\\\\u672c\\",\\"ad_product_pihao\\":\\"\\\\u6279\\\\u53f7\\",\\"ad_product_feature\\":\\"\\\\u4ea7\\\\u54c1\\\\u8bf4\\\\u660e\\"}"},"identifier":"com.luckymarmot.JSONDynamicValue"}]</attribute>
+        <attribute name="uuid" type="string">5670E4E9-A831-4533-9744-E8A895DDA64E</attribute>
+        <attribute name="url" type="string">http://auditing1.guanggaobao.com.cn/api/client/auditor_edit_material</attribute>
         <attribute name="storecookies" type="bool">1</attribute>
         <attribute name="sendcookies" type="bool">1</attribute>
         <attribute name="redirectmethod" type="bool">0</attribute>
@@ -504,12 +504,12 @@
         <attribute name="method" type="string">POST</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
         <attribute name="order" type="int64">2</attribute>
-        <attribute name="name" type="string">auditor_material_claim</attribute>
+        <attribute name="name" type="string">auditor_edit_material</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z131"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z140 z142"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z143 z145"></relationship>
     </object>
-    <object type="LMKEYVALUE" id="z142">
+    <object type="LMKEYVALUE" id="z145">
         <attribute name="value" type="string"></attribute>
         <attribute name="order" type="int64">1</attribute>
         <attribute name="name" type="string"></attribute>
@@ -517,6 +517,78 @@
         <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
         <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
-        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z141"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z144"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z146">
+        <attribute name="value" type="string">application/json</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z147"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z147">
+        <attribute name="body" type="string">[{"data":{"json":"{\\"login\\":\\"18019101985\\",\\"password\\":\\"YangShuo19841216\\",\\"material_id\\":1170,\\"toStatus\\":\\"\\\\u6b63\\\\u5728\\\\u7ec8\\\\u5ba1\\"}"},"identifier":"com.luckymarmot.JSONDynamicValue"}]</attribute>
+        <attribute name="uuid" type="string">3D980DE5-5AC2-4BB7-856C-8D003A850A61</attribute>
+        <attribute name="url" type="string">http://auditing1.guanggaobao.com.cn/api/client/auditor_material_status_change</attribute>
+        <attribute name="storecookies" type="bool">1</attribute>
+        <attribute name="sendcookies" type="bool">1</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">POST</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="order" type="int64">3</attribute>
+        <attribute name="name" type="string">auditor_material_status_change</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z131"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z146 z148"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z148">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z147"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z149">
+        <attribute name="value" type="string">application/json</attribute>
+        <attribute name="order" type="int64">0</attribute>
+        <attribute name="name" type="string">Content-Type</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z150"></relationship>
+    </object>
+    <object type="LMREQUEST" id="z150">
+        <attribute name="body" type="string">["{\\n  \\"login\\": \\"18019101985\\",\\n  \\"password\\": \\"YangShuo19841216\\",\\n  \\"material_id\\": 1170,\\n  \\"passed\\": true,\\n  \\"results\\": [\\n    {\\n      \\"监测重点\\": \\"xxx\\",\\n      \\"违规内容\\": \\"xxx\\",\\n      \\"违法依据\\": \\"xxx\\",\\n      \\"修改建议\\": \\"xxx\\"\\n    },\\n    {\\n      \\"监测重点\\": \\"xxx1\\",\\n      \\"违规内容\\": \\"11111\\",\\n      \\"违法依据\\": \\"2222\\",\\n      \\"修改建议\\": \\"3333\\"\\n    }\\n  ]\\n}"]</attribute>
+        <attribute name="uuid" type="string">C8E2FFA7-7879-483D-A1B8-66CDA43CD720</attribute>
+        <attribute name="url" type="string">http://auditing1.guanggaobao.com.cn/api/client/auditor_result_update</attribute>
+        <attribute name="storecookies" type="bool">1</attribute>
+        <attribute name="sendcookies" type="bool">1</attribute>
+        <attribute name="redirectmethod" type="bool">0</attribute>
+        <attribute name="redirectauthorization" type="bool">0</attribute>
+        <attribute name="method" type="string">POST</attribute>
+        <attribute name="followredirects" type="bool">0</attribute>
+        <attribute name="order" type="int64">4</attribute>
+        <attribute name="name" type="string">auditor_result_update</attribute>
+        <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z131"></relationship>
+        <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z149 z151"></relationship>
+    </object>
+    <object type="LMKEYVALUE" id="z151">
+        <attribute name="value" type="string"></attribute>
+        <attribute name="order" type="int64">1</attribute>
+        <attribute name="name" type="string"></attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <relationship name="groupforbodyparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforheaders" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="groupforurlparameters" type="0/1" destination="LMREQUESTGROUP"></relationship>
+        <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z150"></relationship>
     </object>
 </database>
