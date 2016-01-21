@@ -458,7 +458,7 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z138"></relationship>
     </object>
     <object type="LMREQUEST" id="z138">
-        <attribute name="body" type="string">["{\\n  \\"createTimeBegin\\": \\"2015-01-01\\",\\n  \\"createTimeEnd\\": \\"2016-02-01\\",\\n  \\"broadCastTimeBegin\\": \\"2015-01-01\\",\\n  \\"broadCastTimeEnd\\": \\"2016-02-01\\",\\n  \\"login\\": \\"18019101985\\",\\n  \\"password\\": \\"YangShuo19841216\\"\\n}"]</attribute>
+        <attribute name="body" type="string">["{\\n  \\"createTimeBegin\\": \\"2016-01-09\\",\\n  \\"createTimeEnd\\": \\"2016-01-20\\",\\n  \\"broadCastTimeBegin\\": \\"2016-01-09\\",\\n  \\"broadCastTimeEnd\\": \\"2016-01-20\\",\\n  \\"login\\": \\"18019101985\\",\\n  \\"password\\": \\"YangShuo19841216\\"\\n}"]</attribute>
         <attribute name="uuid" type="string">E57561C0-F2AD-42C9-9A0A-A54A71BE5C87</attribute>
         <attribute name="url" type="string">http://auditing1.guanggaobao.com.cn/api/client/auditor_material_search</attribute>
         <attribute name="storecookies" type="bool">1</attribute>
@@ -494,7 +494,7 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z144"></relationship>
     </object>
     <object type="LMREQUEST" id="z144">
-        <attribute name="body" type="string">[{"data":{"json":"{\\"login\\":\\"18019101985\\",\\"password\\":\\"YangShuo19841216\\",\\"product_title\\":\\"\\\\u4ea7\\\\u54c1\\\\u540d\\",\\"material_id\\":123,\\"title\\":\\"\\\\u5e7f\\\\u544a\\\\u540d\\",\\"ad_type\\":\\"\\\\u5a92\\\\u4f53\\\\u7c7b\\\\u578b\\",\\"ad_date\\":\\"\\\\u64ad\\\\u51fa\\\\u65e5\\\\u671f\\",\\"ad_time\\":\\"\\\\u64ad\\\\u51fa\\\\u65f6\\\\u6bb5\\",\\"ad_duration\\":\\"\\\\u64ad\\\\u51fa\\\\u65f6\\\\u957f\\",\\"ad_version\\":\\"\\\\u5e7f\\\\u544a\\\\u7248\\\\u672c\\",\\"ad_product_pihao\\":\\"\\\\u6279\\\\u53f7\\",\\"ad_product_feature\\":\\"\\\\u4ea7\\\\u54c1\\\\u8bf4\\\\u660e\\"}"},"identifier":"com.luckymarmot.JSONDynamicValue"}]</attribute>
+        <attribute name="body" type="string">[{"data":{"json":"{\\"login\\":\\"18019101985\\",\\"password\\":\\"YangShuo19841216\\",\\"product_title\\":\\"\\\\u4ea7\\\\u54c1\\\\u540d\\",\\"material_id\\":123,\\"title\\":\\"\\\\u5e7f\\\\u544a\\\\u540d\\",\\"ad_type\\":\\"\\\\u5e7f\\\\u544a\\\\u7c7b\\\\u578b\\",\\"ad_date\\":\\"\\\\u64ad\\\\u51fa\\\\u65e5\\\\u671f\\",\\"ad_time\\":\\"\\\\u64ad\\\\u51fa\\\\u65f6\\\\u6bb5\\",\\"ad_duration\\":\\"\\\\u64ad\\\\u51fa\\\\u65f6\\\\u957f\\",\\"ad_version\\":\\"\\\\u5e7f\\\\u544a\\\\u7248\\\\u672c\\",\\"ad_product_pihao\\":\\"\\\\u6279\\\\u53f7\\",\\"ad_product_feature\\":\\"\\\\u4ea7\\\\u54c1\\\\u8bf4\\\\u660e\\"}"},"identifier":"com.luckymarmot.JSONDynamicValue"}]</attribute>
         <attribute name="uuid" type="string">5670E4E9-A831-4533-9744-E8A895DDA64E</attribute>
         <attribute name="url" type="string">http://auditing1.guanggaobao.com.cn/api/client/auditor_edit_material</attribute>
         <attribute name="storecookies" type="bool">1</attribute>
@@ -530,7 +530,7 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z147"></relationship>
     </object>
     <object type="LMREQUEST" id="z147">
-        <attribute name="body" type="string">[{"data":{"json":"{\\"login\\":\\"18019101985\\",\\"password\\":\\"YangShuo19841216\\",\\"material_id\\":1170,\\"toStatus\\":\\"\\\\u6b63\\\\u5728\\\\u7ec8\\\\u5ba1\\"}"},"identifier":"com.luckymarmot.JSONDynamicValue"}]</attribute>
+        <attribute name="body" type="string">["{\\n  \\"login\\": \\"18019101111\\",\\n  \\"password\\": \\"18019101111\\",\\n  \\"material_id\\": 4028,\\n  \\"toStatus\\": \\"正在初审\\"\\n}"]</attribute>
         <attribute name="uuid" type="string">3D980DE5-5AC2-4BB7-856C-8D003A850A61</attribute>
         <attribute name="url" type="string">http://auditing1.guanggaobao.com.cn/api/client/auditor_material_status_change</attribute>
         <attribute name="storecookies" type="bool">1</attribute>
@@ -566,7 +566,7 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z150"></relationship>
     </object>
     <object type="LMREQUEST" id="z150">
-        <attribute name="body" type="string">["{\\n  \\"login\\": \\"18019101985\\",\\n  \\"password\\": \\"YangShuo19841216\\",\\n  \\"material_id\\": 1170,\\n  \\"passed\\": true,\\n  \\"results\\": [\\n    {\\n      \\"监测重点\\": \\"xxx\\",\\n      \\"违规内容\\": \\"xxx\\",\\n      \\"违法依据\\": \\"xxx\\",\\n      \\"修改建议\\": \\"xxx\\"\\n    },\\n    {\\n      \\"监测重点\\": \\"xxx1\\",\\n      \\"违规内容\\": \\"11111\\",\\n      \\"违法依据\\": \\"2222\\",\\n      \\"修改建议\\": \\"3333\\"\\n    }\\n  ]\\n}"]</attribute>
+        <attribute name="body" type="string">["{  \\"login\\": \\"18019101113\\",\\n  \\"password\\": \\"18019101113\\",\\n  \\"material_id\\": 4028,\\n  \\"passed\\": true,\\n  \\"results\\": [\\n    [\\n      {\\n        \\"key\\": \\"监测重点\\",\\n        \\"value\\": \\"xxx1\\"\\n      },\\n      {\\n        \\"key\\": \\"违规内容\\",\\n        \\"value\\": \\"xxx1\\"\\n      },\\n      {\\n        \\"key\\": \\"违法依据\\",\\n        \\"value\\": \\"xxx1\\"\\n      },\\n      {\\n        \\"key\\": \\"修改建议\\",\\n        \\"value\\": \\"xxx1\\"\\n      }\\n    ],\\n    [\\n      {\\n        \\"key\\": \\"监测重点\\",\\n        \\"value\\": \\"xxx2\\"\\n      },\\n      {\\n        \\"key\\": \\"违规内容\\",\\n        \\"value\\": \\"xxx2\\"\\n      },\\n      {\\n        \\"key\\": \\"违法依据\\",\\n        \\"value\\": \\"xxx2\\"\\n      },\\n      {\\n        \\"key\\": \\"修改建议\\",\\n        \\"value\\": \\"xxx2\\"\\n      }\\n    ]\\n  ]\\n}"]</attribute>
         <attribute name="uuid" type="string">C8E2FFA7-7879-483D-A1B8-66CDA43CD720</attribute>
         <attribute name="url" type="string">http://auditing1.guanggaobao.com.cn/api/client/auditor_result_update</attribute>
         <attribute name="storecookies" type="bool">1</attribute>
