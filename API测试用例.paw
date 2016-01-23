@@ -566,7 +566,7 @@
         <relationship name="request" type="0/1" destination="LMREQUEST" idrefs="z150"></relationship>
     </object>
     <object type="LMREQUEST" id="z150">
-        <attribute name="body" type="string">["{  \\"login\\": \\"18019101113\\",\\n  \\"password\\": \\"18019101113\\",\\n  \\"material_id\\": 4028,\\n  \\"passed\\": true,\\n  \\"results\\": [\\n    [\\n      {\\n        \\"key\\": \\"监测重点\\",\\n        \\"value\\": \\"xxx1\\"\\n      },\\n      {\\n        \\"key\\": \\"违规内容\\",\\n        \\"value\\": \\"xxx1\\"\\n      },\\n      {\\n        \\"key\\": \\"违法依据\\",\\n        \\"value\\": \\"xxx1\\"\\n      },\\n      {\\n        \\"key\\": \\"修改建议\\",\\n        \\"value\\": \\"xxx1\\"\\n      }\\n    ],\\n    [\\n      {\\n        \\"key\\": \\"监测重点\\",\\n        \\"value\\": \\"xxx2\\"\\n      },\\n      {\\n        \\"key\\": \\"违规内容\\",\\n        \\"value\\": \\"xxx2\\"\\n      },\\n      {\\n        \\"key\\": \\"违法依据\\",\\n        \\"value\\": \\"xxx2\\"\\n      },\\n      {\\n        \\"key\\": \\"修改建议\\",\\n        \\"value\\": \\"xxx2\\"\\n      }\\n    ]\\n  ]\\n}"]</attribute>
+        <attribute name="body" type="string">["{\\n  \\"login\\": \\"18019101111\\",\\n  \\"password\\": \\"18019101111\\",\\n  \\"material_id\\": 4028,\\n  \\"passed\\": true,\\n  \\"results\\": [\\n    {\\n      \\"监测重点\\": \\"aaa1\\",\\n      \\"违规内容\\": \\"aaa2\\",\\n      \\"违法依据\\": \\"aaa3\\",\\n      \\"修改建议\\": \\"aaa4\\"\\n    },\\n    {\\n      \\"监测重点\\": \\"aaa1\\",\\n      \\"违规内容\\": \\"aaa2\\",\\n      \\"违法依据\\": \\"aaa3\\",\\n      \\"修改建议\\": \\"aaa4\\"\\n    }\\n  ]\\n}"]</attribute>
         <attribute name="uuid" type="string">C8E2FFA7-7879-483D-A1B8-66CDA43CD720</attribute>
         <attribute name="url" type="string">http://auditing1.guanggaobao.com.cn/api/client/auditor_result_update</attribute>
         <attribute name="storecookies" type="bool">1</attribute>
@@ -579,7 +579,7 @@
         <attribute name="name" type="string">auditor_result_update</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z131"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z149 z151"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z151 z149"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z151">
         <attribute name="value" type="string"></attribute>
